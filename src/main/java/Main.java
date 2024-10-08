@@ -57,7 +57,11 @@ public class Main {
 
         System.out.println(" ");
 
-        
+        UtilityMethods.checkCustomerDiscount(student1);
+        UtilityMethods.checkCustomerDiscount(hourlyEmployee);
+        UtilityMethods.checkCustomerDiscount(manager);
+
+
 
 
 

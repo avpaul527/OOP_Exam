@@ -21,11 +21,11 @@ public class UtilityMethods {
 
     public static void checkCustomerDiscount(Customer customer){
         if (customer instanceof Student) {
-            System.out.println("Student gets discount of 5% off!");
+            System.out.println("Student qualifies for discount of 5.0%");
         }else if(customer instanceof HourlyEmployee){
-            System.out.println("Hourly employee gets a discount of 10% off!");
+            System.out.println("Hourly employee qualifies for discount of 10.0%");
         }else if (customer instanceof Manager){
-            System.out.println("Manager gets discount of 15% off!");
+            System.out.println("Manager qualifies for discount of 15.0%");
         }
 
     }
